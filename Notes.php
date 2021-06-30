@@ -11,7 +11,6 @@
 </head>
 
 <body>
-<p>HI there</p>
   <!-- Navbar Starts -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
@@ -121,4 +120,5 @@
     </div>
   </footer>
 </body>
+
 </html>
