@@ -17,8 +17,8 @@ if (!$conn) {
   die("Sorry we failed to connect: " . mysqli_connect_error());
 }
 // Delete record
-if (isset($_GET['Delete'])) {
-  $sno = $_GET['Delete'];
+if (isset($_GET['delete'])) {
+  $sno = $_GET['delete'];
   $delete = true;
   $sql = "DELETE FROM `notes` WHERE `Sr.` = $sno";
   $result = mysqli_query($conn, $sql);
