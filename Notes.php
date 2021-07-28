@@ -83,10 +83,6 @@
 
     // data entry alert code
     if ($result) {
-      // echo '<div class="container alert alert-success alert-dismissible fade show" role="alert">
-      //   <strong>SUCCESS!</strong> Your note was added!
-      //   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button> 
-      //   </div>';
       echo '<div class="container alert alert-success alert-dismissible" role="alert">
       <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
       <strong>Success!</strong> Your Note was added!
