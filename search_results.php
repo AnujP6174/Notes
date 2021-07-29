@@ -86,7 +86,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     </div>
   </nav>
   <!-- Navbar Ends -->
-  <!-- Datatables -->
+  <!-- Datatables start-->
   <div class="container my-4">
     <table class="table table-dark table-striped table-hover table-bordered my-4" id="myTable">
       <thead>
