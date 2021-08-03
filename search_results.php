@@ -55,7 +55,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 
   <script src="//cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
-  
+
   <!-- Dependency for modal👇👇 -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
   <title>Search Results</title>
@@ -114,7 +114,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             </tr>";
           }
           ?>
-          </div>
+        </div>
       </tbody>
     </table>
   </div>
