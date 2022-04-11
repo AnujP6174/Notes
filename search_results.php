@@ -112,7 +112,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <td>" . $row['Description'] . "</td>
             <td>
             <button class='edit btn btn-sm btn-primary' id=" . $row['Sr.'] . ">Edit</button>
-            <button class='delete btn btn-sm btn-secondary' id=d" . $row['Sr.'] . ">Delete</button></td>
+            <button class='delete btn btn-sm btn-secondary' id=" . $row['Sr.'] . ">Delete</button></td>
             </tr>";
           }
           ?>
